@@ -24,10 +24,10 @@ function calculateProfitOrLoss(initial, quantity, current)
             var profit = (current-initial) * quantity;
             var profitPer = profit/initial * 100;
             //console.log(`Hey, the profit is ${profit} and the profit % is ${profitPer}`)
-            output.innerHTML = "Hey, the loss is "+ profit + " and the loss % is "+ profitPer;
+            output.innerHTML = "Hey, the profit is "+ profit + " and the profit % is "+ profitPer;
         }
         else{
-            output.innerHTML = "No gain, no pain";
+            output.innerHTML = "Neither profit, nor loss";
         }
     }
     else
