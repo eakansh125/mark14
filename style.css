@@ -40,3 +40,15 @@ button{
     font-size: larger;
     font-weight: bolder;
 }
+
+#foot{
+    height: 7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+#foot>p{
+    margin: 0;
+}
